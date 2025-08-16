@@ -1,0 +1,45 @@
+# 🛒 Online Retail Sales Dashboard (Power BI)
+
+This dashboard visualizes online retail transactions to uncover sales trends, top-performing products, and country-wise revenue using Power BI.
+
+---
+
+## 🔍 Dataset Details
+- Columns: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
+- Source: Online Retail Dataset (UCI Machine Learning Repository)
+- Cleaned in Power BI and analyzed using DAX
+
+---
+
+## 📈 Dashboard Features
+- KPI Cards: Total Sales, Total Orders, Quantity Sold, Unique Customers
+- Monthly Sales Trend (Line Chart)
+- Top 10 Products by Sales (Bar Chart)
+- Sales by Country (Pie / Donut Chart)
+- Sales by Country (Bar Chart)
+
+---
+
+## 💡 Key Insights
+- UK generates the highest revenue overall.
+- Products with high quantity don’t always have highest revenue — price also matters.
+- Majority of sales revenue concentrated in top 5 countries.
+- Sales have seasonal patterns over months.
+
+---
+
+## 📁 Repository Content
+
+| File | Description |
+|------|-------------|
+| `OnlineRetail_Dashboard.pbix` | Final Power BI dashboard file |
+| `OnlineRetailDashboard.png`   | Dashboard screenshot |
+| `README.md`                   | Project documentation |
+
+---
+
+## 🧠 Skills Demonstrated
+- Power BI data modeling and visualization
+- DAX for KPI calculations
+- Data cleaning and column creation
+- Business insights and storytelling using data
